@@ -37,5 +37,18 @@
         "created_at": "2026-10-03T09:40:17.773Z",
         "updated_at": "2026-10-03T09:40:17.773Z",
         "type": "plugin"
+    },
+    {
+        "id": "F-uDEvuCEcRF0IJioRVM-CopHczgOfI9",
+        "plugin": "table-editor-obsidian",
+        "language": "zh-cn",
+        "version": "0.23.2",
+        "supported_versions": "0.23.2",
+        "title": "[Tiara][zh-cn] Advanced Tables",
+        "description": "高级表格本地化与调整",
+        "hash": "4ddfc3bb4ddfc3bb4ddfc3bb4ddfc3bb",
+        "created_at": "2026-10-03T09:40:26.579Z",
+        "updated_at": "2026-10-03T09:40:26.579Z",
+        "type": "plugin"
     }
 ]
