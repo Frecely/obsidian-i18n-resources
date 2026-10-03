@@ -7,7 +7,7 @@
         "supportedVersions": "1.13.2",
         "title": "Border",
         "description": "Border主题的本地化与调整",
-        "author": ""
+        "author": "Tiara"
     },
     "dict": [
         {
@@ -83,7 +83,7 @@
         {
             "type": "title",
             "source": "Untrim file names",
-            "target": "取消绑定文件名"
+            "target": "未修剪的文件名"
         },
         {
             "type": "title",
@@ -188,7 +188,7 @@
         {
             "type": "title",
             "source": "Canvas",
-            "target": "Canvas"
+            "target": "画布"
         },
         {
             "type": "title",
@@ -318,27 +318,27 @@
         {
             "type": "title",
             "source": "color-accent-hsl",
-            "target": "color-accent-hsl"
+            "target": "强调色HSL"
         },
         {
             "type": "title",
             "source": "color-accent",
-            "target": "color-accent"
+            "target": "强调色"
         },
         {
             "type": "title",
             "source": "color-accent-1",
-            "target": "color-accent-1"
+            "target": "强调色1"
         },
         {
             "type": "title",
             "source": "color-accent-2",
-            "target": "color-accent-2"
+            "target": "强调色2"
         },
         {
             "type": "title",
             "source": "color-accent-3",
-            "target": "color-accent-3"
+            "target": "强调色3"
         },
         {
             "type": "title",
@@ -1618,7 +1618,7 @@
         {
             "type": "title",
             "source": "Level 5 Headings",
-            "target": "5 级标题"
+            "target": "五级标题"
         },
         {
             "type": "title",
