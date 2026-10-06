@@ -4,7 +4,7 @@
         "plugin": "better-word-count",
         "version": "1.0.0",
         "title": "[Tiara][zh-cn] 更好的字数统计",
-        "description": "更好的字数本地化和调整",
+        "description": "更好的字数插件-本地化和调整",
         "language": "zh-cn",
         "supportedVersions": "0.10.1",
         "author": "Tiara"
@@ -176,9 +176,9 @@
                 },
                 {
                     "type": "AssignmentExpression",
-                    "name": "return",
-                    "source": "return \"Words in Note\";",
-                    "target": "return \"注释中的单词\";"
+                    "name": "textContent",
+                    "source": "Counting",
+                    "target": "计数"
                 }
             ],
             "regex": [
@@ -216,7 +216,7 @@
                 },
                 {
                     "source": "setName(\"Vault Stats File Path\")",
-                    "target": "setName(\"Vault Stats File Path\")"
+                    "target": "setName(\"保险库统计文件路径\")"
                 },
                 {
                     "source": "setDesc(\"Reload required for change to take effect. The location of the vault statistics file, relative to the vault root.\")",
@@ -224,7 +224,7 @@
                 },
                 {
                     "source": "error(`Invalid scale configuration for scale: ${id}`)",
-                    "target": "error(`Invalid scale configuration for scale: ${id}`)"
+                    "target": "error(`无效的比例配置: ${id}`)"
                 },
                 {
                     "source": "setTitle(`Count Words`)",
@@ -347,12 +347,8 @@
                     "target": "return \"每日页数\";"
                 },
                 {
-                    "source": "return \"Total Notes\";",
-                    "target": "return \"总笔记数\";"
-                },
-                {
                     "source": "return \"Words in Note\"",
-                    "target": "return \"Words in Note\""
+                    "target": "return \"笔记字数\""
                 }
             ]
         }
