@@ -1,0 +1,284 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-hider",
+        "version": "1.0.0",
+        "title": "[Tiara][zh-cn] Hider",
+        "description": "Hider插件 本地化与翻译",
+        "language": "zh-cn",
+        "supportedVersions": "1.6.1",
+        "author": "Tiara"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloading Hider plugin",
+                    "target": "正在卸载 Hider 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hides the tab container at the top of the window.",
+                    "target": "隐藏窗口顶部的标签页容器。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hides word count, character count and backlink count.",
+                    "target": "隐藏字数、字符数和反向链接数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hides all scroll bars.",
+                    "target": "隐藏所有滚动条。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hides both sidebar buttons.",
+                    "target": "隐藏两个侧边栏按钮。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hides all tooltips.",
+                    "target": "隐藏所有工具提示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hides buttons at the top of file explorer (new file, new folder, etc).",
+                    "target": "隐藏文件浏览器顶部的按钮（新建文件、新建文件夹等）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hides suggestions in search pane.",
+                    "target": "隐藏搜索窗格中的建议。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hides the number of matches within each search result.",
+                    "target": "隐藏每个搜索结果中的匹配数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hides instructional tips in quick switcher and command palette.",
+                    "target": "隐藏快速切换器和命令面板中的操作提示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hides the properties section in Reading view.",
+                    "target": "在阅读视图中隐藏属性区域。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide tab bar",
+                    "target": "隐藏标签栏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide status bar",
+                    "target": "隐藏状态栏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide vault name",
+                    "target": "隐藏仓库名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide scroll bars",
+                    "target": "隐藏滚动条"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide sidebar toggle buttons",
+                    "target": "隐藏侧边栏切换按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide tooltips",
+                    "target": "隐藏工具提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide file explorer buttons",
+                    "target": "隐藏文件浏览器按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide search suggestions",
+                    "target": "隐藏搜索建议"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide count of search term matches",
+                    "target": "隐藏搜索词匹配数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide instructions",
+                    "target": "隐藏说明"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide properties in Reading view",
+                    "target": "阅读视图隐藏属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle tab bar",
+                    "target": "切换标签栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle status bar",
+                    "target": "切换状态栏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hides your vault profile. Warning: this also hides access to the Settings and vault switcher icons. You can use hotkeys or the command palette to open them.",
+                    "target": "隐藏你的仓库配置文件。警告：这也会隐藏设置和仓库切换器图标的访问入口。你可以使用快捷键或命令面板来打开它们。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setHeading",
+                    "source": "Interface",
+                    "target": "界面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setHeading",
+                    "source": "Search",
+                    "target": "搜索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setHeading",
+                    "source": "File explorer",
+                    "target": "文件资源管理器"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "log(\"Unloading Hider plugin\")",
+                    "target": "log(\"卸载 Hider 插件\")"
+                },
+                {
+                    "source": "setName(\"Hide tab bar\")",
+                    "target": "setName(\"隐藏标签栏\")"
+                },
+                {
+                    "source": "setDesc(\"Hides the tab container at the top of the window.\")",
+                    "target": "setDesc(\"隐藏窗口顶部的标签容器。\")"
+                },
+                {
+                    "source": "setName(\"Hide status bar\")",
+                    "target": "setName(\"隐藏状态栏\")"
+                },
+                {
+                    "source": "setDesc(\"Hides word count, character count and backlink count.\")",
+                    "target": "setDesc(\"隐藏字数、字符数和反向链接数。\")"
+                },
+                {
+                    "source": "setName(\"Hide vault name\")",
+                    "target": "setName(\"隐藏仓库名称\")"
+                },
+                {
+                    "source": "setName(\"Hide scroll bars\")",
+                    "target": "setName(\"隐藏滚动条\")"
+                },
+                {
+                    "source": "setDesc(\"Hides all scroll bars.\")",
+                    "target": "setDesc(\"隐藏所有滚动条。\")"
+                },
+                {
+                    "source": "setName(\"Hide sidebar toggle buttons\")",
+                    "target": "setName(\"隐藏侧边栏切换按钮\")"
+                },
+                {
+                    "source": "setDesc(\"Hides both sidebar buttons.\")",
+                    "target": "setDesc(\"隐藏两个侧边栏按钮。\")"
+                },
+                {
+                    "source": "setName(\"Hide tooltips\")",
+                    "target": "setName(\"隐藏工具提示\")"
+                },
+                {
+                    "source": "setDesc(\"Hides all tooltips.\")",
+                    "target": "setDesc(\"隐藏所有工具提示。\")"
+                },
+                {
+                    "source": "setName(\"Hide file explorer buttons\")",
+                    "target": "setName(\"隐藏文件浏览器按钮\")"
+                },
+                {
+                    "source": "setDesc(\"Hides buttons at the top of file explorer (new file, new folder, etc).\")",
+                    "target": "setDesc(\"隐藏文件浏览器顶部的按钮（新建文件、新建文件夹等）。\")"
+                },
+                {
+                    "source": "setName(\"Hide search suggestions\")",
+                    "target": "setName(\"隐藏搜索建议\")"
+                },
+                {
+                    "source": "setDesc(\"Hides suggestions in search pane.\")",
+                    "target": "setDesc(\"隐藏搜索窗格中的建议。\")"
+                },
+                {
+                    "source": "setName(\"Hide count of search term matches\")",
+                    "target": "setName(\"隐藏搜索词匹配数\")"
+                },
+                {
+                    "source": "setDesc(\"Hides the number of matches within each search result.\")",
+                    "target": "setDesc(\"隐藏每个搜索结果中的匹配数。\")"
+                },
+                {
+                    "source": "setName(\"Hide instructions\")",
+                    "target": "setName(\"隐藏说明\")"
+                },
+                {
+                    "source": "setDesc(\"Hides instructional tips in quick switcher and command palette.\")",
+                    "target": "setDesc(\"隐藏快速切换器和命令面板中的操作提示。\")"
+                },
+                {
+                    "source": "setName(\"Hide properties in Reading view\")",
+                    "target": "setName(\"阅读视图中隐藏属性\")"
+                },
+                {
+                    "source": "setDesc(\"Hides the properties section in Reading view.\")",
+                    "target": "setDesc(\"在阅读视图中隐藏属性区域。\")"
+                },
+                {
+                    "source": "name:\"Toggle tab bar\"",
+                    "target": "name:\"切换标签栏\""
+                },
+                {
+                    "source": "name:\"Toggle status bar\"",
+                    "target": "name:\"切换状态栏\""
+                }
+            ]
+        }
+    }
+}
