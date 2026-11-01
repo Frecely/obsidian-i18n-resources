@@ -89,5 +89,18 @@
         "created_at": "2026-10-06T12:40:48.638Z",
         "updated_at": "2026-10-06T12:40:48.638Z",
         "type": "plugin"
+    },
+    {
+        "id": "bj-sc6Xl_HeTCtVajM0Ag1k5l_FKLFkU",
+        "plugin": "dataview",
+        "language": "zh-cn",
+        "version": "0.5.68",
+        "supported_versions": "0.5.68",
+        "title": "[Tiara][zh-cn] Dataview",
+        "description": "Dataview Localization & Tweaks",
+        "hash": "32ed396832ed396832ed396832ed3968",
+        "created_at": "2026-11-01T00:55:53.053Z",
+        "updated_at": "2026-11-01T00:55:53.053Z",
+        "type": "plugin"
     }
 ]
