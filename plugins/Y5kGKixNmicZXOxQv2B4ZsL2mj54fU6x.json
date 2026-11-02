@@ -215,80 +215,92 @@
                     "name": "tooltip",
                     "source": "Next Month",
                     "target": "下个月"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create file: '${normalizedPath}'",
+                    "target": "创建文件失败：'${normalizedPath}'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "File ${filename} does not exist. Would you like to create it?",
+                    "target": "文件 ${filename} 不存在。是否创建？"
                 }
             ],
             "regex": [
                 {
                     "source": "setName(\"Confirm before creating new note\")",
-                    "target": "setName(\"Confirm before creating new note\")"
+                    "target": "setName(\"创建新笔记前确认\")"
                 },
                 {
                     "source": "setDesc(\"Show a confirmation modal before creating a new note\")",
-                    "target": "setDesc(\"Show a confirmation modal before creating a new note\")"
+                    "target": "setDesc(\"创建新笔记前显示确认弹窗\")"
                 },
                 {
                     "source": "setName(\"Show week number\")",
-                    "target": "setName(\"Show week number\")"
+                    "target": "setName(\"显示周数\")"
                 },
                 {
                     "source": "setDesc(\"Enable this to add a column with the week number\")",
-                    "target": "setDesc(\"Enable this to add a column with the week number\")"
+                    "target": "setDesc(\"启用后添加周数列\")"
                 },
                 {
                     "source": "setName(\"Weekly note format\")",
-                    "target": "setName(\"Weekly note format\")"
+                    "target": "setName(\"周记格式\")"
                 },
                 {
                     "source": "setDesc(\"For more syntax help, refer to format reference\")",
-                    "target": "setDesc(\"For more syntax help, refer to format reference\")"
+                    "target": "setDesc(\"更多语法帮助请参阅格式参考\")"
                 },
                 {
                     "source": "setName(\"Weekly note folder\")",
-                    "target": "setName(\"Weekly note folder\")"
+                    "target": "setName(\"周记文件夹\")"
                 },
                 {
                     "source": "setDesc(\"New weekly notes will be placed here\")",
-                    "target": "setDesc(\"New weekly notes will be placed here\")"
+                    "target": "setDesc(\"新周记将放置于此\")"
                 },
                 {
                     "source": "setName(\"Override locale:\")",
-                    "target": "setName(\"Override locale:\")"
+                    "target": "setName(\"覆盖区域设置：\")"
                 },
                 {
                     "source": "setDesc(\"Set this if you want to use a locale different from the default\")",
-                    "target": "setDesc(\"Set this if you want to use a locale different from the default\")"
+                    "target": "setDesc(\"如需使用非默认区域设置请启用\")"
                 },
                 {
                     "source": "text: \"⚠️ Daily Notes plugin not enabled\"",
-                    "target": "text: \"⚠️ Daily Notes plugin not enabled\""
+                    "target": "text: \"⚠️ 日记插件未启用\""
                 },
                 {
                     "source": "text: \"The calendar is best used in conjunction with either the Daily Notes plugin or the Periodic Notes plugin (available in the Community Plugins catalog).\"",
-                    "target": "text: \"The calendar is best used in conjunction with either the Daily Notes plugin or the Periodic Notes plugin (available in the Community Plugins catalog).\""
+                    "target": "text: \"日历最好与日记插件或周期笔记插件（可在社区插件目录中获取）配合使用。\""
                 },
                 {
                     "source": "text: \"General Settings\"",
-                    "target": "text: \"General Settings\""
+                    "target": "text: \"常规设置\""
                 },
                 {
                     "source": "text: \"Weekly Note Settings\"",
-                    "target": "text: \"Weekly Note Settings\""
+                    "target": "text: \"周记设置\""
                 },
                 {
                     "source": "text: \"Note: Weekly Note settings are moving. You are encouraged to install the 'Periodic Notes' plugin to keep the functionality in the future.\"",
-                    "target": "text: \"Note: Weekly Note settings are moving. You are encouraged to install the 'Periodic Notes' plugin to keep the functionality in the future.\""
+                    "target": "text: \"注意：周记设置即将迁移。建议安装“周期笔记”插件以保留此功能。\""
                 },
                 {
                     "source": "text: \"Advanced Settings\"",
-                    "target": "text: \"Advanced Settings\""
+                    "target": "text: \"高级设置\""
                 },
                 {
                     "source": "text: \"Never mind\"",
-                    "target": "text: \"Never mind\""
+                    "target": "text: \"算了\""
                 },
                 {
                     "source": "text: `File ${filename} does not exist. Would you like to create it?`",
-                    "target": "text: `File ${filename} does not exist. Would you like to create it?`"
+                    "target": "text: `文件 ${filename} 不存在。是否创建？`"
                 },
                 {
                     "source": "textContent = \".dot.svelte-1widvzq,.hollow.svelte-1widvzq{display:inline-block;height:6px;width:6px;margin:0 1px}.filled.svelte-1widvzq{fill:var(--color-dot)}.active.filled.svelte-1widvzq{fill:var(--text-on-accent)}.hollow.svelte-1widvzq{fill:none;stroke:var(--color-dot)}.active.hollow.svelte-1widvzq{fill:none;stroke:var(--text-on-accent)}\"",
@@ -304,15 +316,63 @@
                 },
                 {
                     "source": "name: \"Open view\"",
-                    "target": "name: \"Open view\""
+                    "target": "name: \"打开视图\""
                 },
                 {
                     "source": "name: \"Open Weekly Note\"",
-                    "target": "name: \"Open Weekly Note\""
+                    "target": "name: \"打开周记\""
                 },
                 {
                     "source": "name: \"Reveal active note\"",
-                    "target": "name: \"Reveal active note\""
+                    "target": "name: \"显示当前笔记\""
+                },
+                {
+                    "source": "Notice(\"Unable to create new file.\")",
+                    "target": "Notice(\"无法创建新文件。\")"
+                },
+                {
+                    "source": "setName(\"Words per dot\")",
+                    "target": "setName(\"每点词数\")"
+                },
+                {
+                    "source": "setDesc(\"How many words should be represented by a single dot?\")",
+                    "target": "setDesc(\"单个点代表多少个词？\")"
+                },
+                {
+                    "source": "setName(\"Start week on:\")",
+                    "target": "setName(\"每周起始日：\")"
+                },
+                {
+                    "source": "setDesc(\"Choose what day of the week to start. Select 'Locale default' to use the default specified by moment.js\")",
+                    "target": "setDesc(\"选择每周起始日。选择“区域默认”以使用 moment.js 指定的默认值\")"
+                },
+                {
+                    "source": "cta: \"Create\"",
+                    "target": "cta: \"创建\""
+                },
+                {
+                    "source": "title: \"New Daily Note\"",
+                    "target": "title: \"新建日记\""
+                },
+                {
+                    "source": "title: \"New Weekly Note\"",
+                    "target": "title: \"新建每周笔记\""
+                },
+                {
+                    "source": "tooltip: \"Previous Month\"",
+                    "target": "tooltip: \"上个月\""
+                },
+                {
+                    "source": "tooltip: \"Next Month\"",
+                    "target": "tooltip: \"下个月\""
+                },
+                {
+                    "source": "addOption(\"locale\", `Locale default (${localeWeekStart})`)",
+                    "target": "addOption(\"locale\", `区域默认 (${localeWeekStart})`)"
+                },
+                {
+                    "source": "getDisplayText() {\n        return \"Calendar\";\n    }",
+                    "target": "getDisplayText() {\n        return \"日历\";\n    }"
                 }
             ]
         }
